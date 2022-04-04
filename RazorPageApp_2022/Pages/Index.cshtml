@@ -1,8 +1,9 @@
 ﻿@page
+@using Newtonsoft.Json.Linq
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
-    var date = 
+    var date = JObject.Parse("{\"User\":\"Test\"}");
 }
 
 <div class="text-center">
