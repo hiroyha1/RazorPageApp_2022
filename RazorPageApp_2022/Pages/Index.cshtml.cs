@@ -34,6 +34,11 @@ namespace RazorPageApp_2022.Pages
             return f;
         }
 
+        public string GetName()
+        {
+            return "Hiroyuki";
+        }
+
         public static int[] swap(int[] args)
         {
             var temp = args[0];
